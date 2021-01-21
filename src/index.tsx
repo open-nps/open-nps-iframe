@@ -5,11 +5,11 @@ import IFrame from 'react-iframe';
 
 interface OpenNpsSurveyMessage {
   surveyId?: string;
-  note?: string;
+  note?: number;
   comment?: string;
 }
 
-export type OpenNPSIFrameOnLoad = (surveyId: string) => void;
+export type OpenNPSIFrameOnLoad = (data: { reviewer: any, target: any }) => void;
 export type OpenNPSIFrameOnChangeComment = (comment: string) => void;
 export type OpenNPSIFrameOnChangeNote = (note: number) => void;
 export type OpenNPSIFrameOnSubmit = (survey: OpenNpsSurveyMessage) => void;
