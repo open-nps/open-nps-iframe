@@ -1,10 +1,17 @@
 {
-  "name": "@open-nps/react-component-iframe",
+  "name": "@open-nps/react-component",
   "version": "1.0.1",
   "description": "Made with create-react-library",
   "author": "guidiego",
   "license": "MIT",
-  "repository": "open-nps/react-component-iframe",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-nps/react-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/open-nps/react-component/issues"
+  },
+  "homepage": "https://github.com/open-nps/react-component#readme",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
